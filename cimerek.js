@@ -1,12 +1,11 @@
 $(document).ready(function() {
     let selectorToCimer = {
-        '.cimer': [{ src: 'images/cimer1.jpg' },
-            { src: 'img/alpin/IMG_20171123_111642.jpg' },
-            { src: 'img/alpin/20180519_121042.jpg' },
-            { src: 'img/alpin/20180531_165857.jpg' },
-            { src: 'img/alpin/20180518_125041.jpg' },
-            { src: 'img/alpin/20180518_115047.jpg' },
-            { src: 'img/alpin/elotte-utana4.jpg' }
+        '.cimer-image': [{ src: 'images/cimer__a_5.jpg', thumb: 'images/cimer__a_5.jpg' },
+            { src: 'images/cimer__a_7.jpg', thumb: 'images/cimer__a_7.jpg' },
+            { src: 'images/cimer__a_14.jpg', thumb: 'images/cimer__a_14.jpg' },
+            { src: 'images/cimer__a_25.jpg', thumb: 'images/cimer__a_25.jpg' },
+            { src: 'images/cimer__s_5.jpg', thumb: 'images/cimer__s_5.jpg' },
+            { src: 'images/cimer__s_7.jpg', thumb: 'images/cimer__s_7.jpg' }
         ],
     };
 

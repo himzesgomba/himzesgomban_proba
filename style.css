@@ -190,7 +190,7 @@ body {
 /*Főoldal része*/
 
 #hero {
-    background-image: url(./images/sewing-3405975_1280_kicsi.jpg);
+    background-image: url(./images/embroidery-3719464_1280.jpg);
     background-size: cover;
     background-position: top left;
     position: relative;
@@ -340,7 +340,7 @@ body {
 
 /*Hímzésen belüli menüpontok/*
 
-    /*Hímzések header részei*/
+/*Hímzések header részei*/
 
 #references .references-header {
     background-color: white;
@@ -434,39 +434,61 @@ body {
     margin: 50px;
 }
 
-.cimer-gallery>.cimersor {
-    cursor: pointer;
-    background-position: center;
-    margin-bottom: 20px;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
+.cimer-gallery>.cimer-image {
     flex: 60%;
+    height: 20rem;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    margin: 4px;
 }
 
-.cimer-gallery .cimer-image {
-    height: 25rem;
+.cimer-gallery>.cimer-image:hover>a,
+.cimer-gallery>.cimer-image:focus>a {
+    transform: scale(1.1);
+    opacity: .9;
 }
 
 .cimer-gallery>.cimer-image>a {
+    display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
     cursor: pointer;
+    height: 100%;
     width: 100%;
+    color: white;
+    transition: all .5s ease-out;
+    background-position: center;
+    transform: scale(1);
 }
 
-.cimer-gallery>.cimersor>.cimer-image>a>img {
+.cimer-gallery>.cimer-image>a>img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.cimer-gallery>.cimersor>.cimer-szoveg>p {
-    color: white;
-    background-color: #a48d64;
-    margin-top: 0;
-    margin-bottom: 20px;
-    text-align: center;
+.cimer-gallery>.cimer-image>a::after {
+    display: block;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.cimer-gallery>.cimer-image>a>span {
+    z-index: 1;
+    font-size: 0.7rem;
+    position: absolute;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    margin: 50px;
 }
 
 
@@ -648,6 +670,33 @@ body {
 }
 
 
+/*Egyéb termékek képei*/
+
+.index-gallery>.gallery-image>.fulbevalok {
+    background-image: url("images/virag_rozsaszin.jpg");
+}
+
+.index-gallery>.gallery-image>.karacsonyfadisz {
+    background-image: url("images/hopihe.jpg");
+}
+
+.index-gallery>.gallery-image>.hangulatjelek {
+    background-image: url("images/mosolygo.jpg");
+}
+
+.index-gallery>.gallery-image>.kulcstarto {
+    background-image: url("images/kulcs1a.jpg");
+}
+
+.index-gallery>.gallery-image>.aldas {
+    background-image: url("images/jaszsagi.jpg");
+}
+
+.index-gallery>.gallery-image>.torolkozo {
+    background-image: url("images/torolkozo_legjobb.jpg");
+}
+
+
 /*Ajánlatkérés*/
 
 #ajanlat {
@@ -713,7 +762,7 @@ body {
     margin-top: 10px;
 }
 
-.contactForm .inputBox input,
+.contactForm .inputBox .kerdo,
 .contactForm .inputBox select,
 .contactForm .inputBox textarea {
     width: 100%;
@@ -749,6 +798,10 @@ body {
     transform: translateY(-20px);
 }
 
+.contactForm .inputBox .valaszt {
+    margin: 10px;
+}
+
 .contactForm .inputBox input[type="file"] {
     color: white;
     background-color: #a48d64;
@@ -761,11 +814,7 @@ body {
 
 label {
     color: white;
-    cursor: pointer;
     font-size: 16px;
-    border-bottom: white solid 1px;
-    margin: 10px 0;
-    padding: 5px 0;
 }
 
 form ol {
@@ -961,14 +1010,31 @@ form h6 {
 }
 
 #footer .social-icon {
+    margin: 0 auto;
+}
+
+#footer .social-item {
+    justify-content: center;
+    padding: 0;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
 }
 
-#footer .social-item {
-    align-items: center;
-    padding: 0;
-    margin: 5px;
+#footer .social-szoveg {
+    display: block;
+    display: flex;
+    justify-content: center;
+}
+
+#footer h3 {
+    color: white;
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+    display: inline;
+    margin: 3px;
 }
 
 #footer p {
@@ -980,7 +1046,7 @@ form h6 {
 
 @media only screen and (min-width: 768px) {
     #hero {
-        background-image: url(./images/sewing-3405975_1280.jpg);
+        background-image: url(./images/embroidery-3719464_1280.jpg);
         background-position: top center;
         padding-top: 50px;
     }
@@ -1051,7 +1117,7 @@ form h6 {
         display: none;
     }
     #hero {
-        background-image: url(./images/sewing-3405975_1280.jpg);
+        background-image: url(./images/embroidery-3719464_1280_barna.jpg);
         background-size: cover;
     }
     #hero h1 {
@@ -1080,18 +1146,9 @@ form h6 {
         flex: 30%;
         height: 20rem;
     }
-    .cimer-gallery>.cimersor {
-        flex: 40%;
-        width: 50%;
-        height: 50%;
-        padding-left: 220px;
-    }
-    .cimer-gallery .cimer-image {
-        width: 50%;
-        height: 25rem;
-    }
-    .cimer-gallery>.cimersor>.cimer-szoveg>p {
-        width: 50%;
+    .cimer-gallery>.cimer-image {
+        flex: 30%;
+        height: 20rem;
     }
     #ajanlat {
         position: relative;
