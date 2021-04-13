@@ -47,7 +47,7 @@ body {
     color: white;
     position: absolute;
     display: inline;
-    margin-top: 20px;
+    margin-top: 10px;
     justify-content: center;
 }
 
@@ -92,7 +92,7 @@ body {
 }
 
 #header .nav-list ul.active {
-    left: 0;
+    left: 200px;
 }
 
 #header .nav-list ul a {
@@ -183,10 +183,6 @@ body {
     color: white;
 }
 
-#header span {
-    color: #F9FA0F;
-}
-
 
 /*Főoldal része*/
 
@@ -221,6 +217,7 @@ body {
     color: white;
     letter-spacing: .2rem;
     text-transform: uppercase;
+    text-shadow: 2px 2px 2px #333;
 }
 
 #hero hr {
@@ -238,6 +235,7 @@ body {
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: .2rem;
+    text-shadow: 2px 2px 2px #333;
 }
 
 #hero h3 {
@@ -250,6 +248,7 @@ body {
     margin-bottom: 10px;
     font-weight: 500;
     margin-top: 40px;
+    text-shadow: 2px 2px 2px #333;
 }
 
 #hero .call {
@@ -265,13 +264,14 @@ body {
     transition-property: background-color, color;
     margin: 5px;
     box-shadow: 1px 1px 1px black;
+    text-shadow: 2px 2px 2px #333;
 }
 
 
 /*Bemutatkozás rész*/
 
 #bemutat {
-    background-image: url(./images/embroidery-3719464_1280.jpg);
+    background-image: url(./images/embroidery-3719464_1280_barna.jpg);
     background-size: cover;
     width: 100%;
     padding: 150px 20px;
@@ -327,7 +327,7 @@ body {
     display: block;
     padding: 10px 10px;
     color: white;
-    background-color: #575046;
+    background-color: #a48d64;
     text-align: center;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -435,7 +435,7 @@ body {
     margin: 50px;
 }
 
-.cimer-gallery>.cimer-image {
+.cimer-gallery>a {
     flex: 60%;
     height: 20rem;
     justify-content: center;
@@ -444,35 +444,21 @@ body {
     text-align: center;
     display: flex;
     margin: 4px;
-}
-
-.cimer-gallery>.cimer-image:hover>a,
-.cimer-gallery>.cimer-image:focus>a {
-    transform: scale(1.1);
-    opacity: .9;
-}
-
-.cimer-gallery>.cimer-image>a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
     cursor: pointer;
-    height: 100%;
     width: 100%;
-    color: white;
+    height: 100%;
     transition: all .5s ease-out;
     background-position: center;
     transform: scale(1);
 }
 
-.cimer-gallery>.cimer-image>a>img {
+.cimer-gallery>a>img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.cimer-gallery>.cimer-image>a::after {
+.cimer-gallery>a::after {
     display: block;
     content: "";
     position: absolute;
@@ -483,13 +469,15 @@ body {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-.cimer-gallery>.cimer-image>a>span {
+.cimer-gallery>a>span {
     z-index: 1;
     font-size: 0.7rem;
     position: absolute;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
     margin: 50px;
+    color: white;
+    text-shadow: 0.5px 1px black;
 }
 
 
@@ -503,7 +491,7 @@ body {
     margin: 50px;
 }
 
-.magyar-gallery>.magyar-image {
+.magyar-gallery>a {
     flex: 60%;
     height: 20rem;
     justify-content: center;
@@ -512,35 +500,21 @@ body {
     text-align: center;
     display: flex;
     margin: 4px;
-}
-
-.magyar-gallery>.magyar-image:hover>a,
-.magyar-gallery>.magyar-image:focus>a {
-    transform: scale(1.1);
-    opacity: .9;
-}
-
-.magyar-gallery>.magyar-image>a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
     cursor: pointer;
-    height: 100%;
     width: 100%;
-    color: white;
+    height: 100%;
     transition: all .5s ease-out;
     background-position: center;
     transform: scale(1);
 }
 
-.magyar-gallery>.magyar-image>a>img {
+.magyar-gallery>a>img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.magyar-gallery>.magyar-image>a::after {
+.magyar-gallery>a::after {
     display: block;
     content: "";
     position: absolute;
@@ -551,13 +525,15 @@ body {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
-.magyar-gallery>.magyar-image>a>span {
+.magyar-gallery>a>span {
     z-index: 1;
     font-size: 0.7rem;
     position: absolute;
     text-transform: uppercase;
     letter-spacing: 0.2rem;
     margin: 50px;
+    color: white;
+    text-shadow: 0.5px 1px black;
 }
 
 
@@ -621,6 +597,9 @@ body {
     z-index: 1;
     font-size: 0.7rem;
     margin: 50px;
+    text-align: center;
+    justify-content: center;
+    text-shadow: 0.5px 1px black;
 }
 
 .index-gallery>.gallery-image>a>svg {
@@ -709,7 +688,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url("images/needle-106373_1280.jpg");
+    background: url("images/embroidery-3719464_1280_barna.jpg");
     background-size: cover;
 }
 
@@ -905,7 +884,7 @@ form h6 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url("images/embroidery-3719464_1280.jpg");
+    background: url("images/embroidery-3719464_1280_barna.jpg");
     background-size: cover;
 }
 
@@ -1073,11 +1052,11 @@ form h6 {
         flex: 40%;
         height: 20rem;
     }
-    .magyar-gallery>.magyar-image {
+    .magyar-gallery>a {
         flex: 40%;
         height: 20rem;
     }
-    .cimer-gallery>.cimer-image>a {
+    .cimer-gallery>a {
         flex: 40%;
         height: 20rem;
     }
@@ -1143,11 +1122,11 @@ form h6 {
         flex: 30%;
         height: 20rem;
     }
-    .magyar-gallery>.magyar-image {
+    .magyar-gallery>a {
         flex: 30%;
         height: 20rem;
     }
-    .cimer-gallery>.cimer-image {
+    .cimer-gallery>a {
         flex: 30%;
         height: 20rem;
     }

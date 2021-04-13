@@ -1,6 +1,6 @@
 $(document).ready(function() {
     let selectorToCimer = {
-        '.cimer-image': [{ src: 'images/cimer__a_5.jpg', thumb: 'images/cimer__a_5.jpg' },
+        '.cimer-gallery': [{ src: 'images/cimer__a_5.jpg', thumb: 'images/cimer__a_5.jpg' },
             { src: 'images/cimer__a_7.jpg', thumb: 'images/cimer__a_7.jpg' },
             { src: 'images/cimer__a_14.jpg', thumb: 'images/cimer__a_14.jpg' },
             { src: 'images/cimer__a_25.jpg', thumb: 'images/cimer__a_25.jpg' },

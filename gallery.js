@@ -5,7 +5,12 @@ function Gallery(selectorToImages) {
             elem.lightGallery({
                 dynamic: true,
                 dynamicEl: images,
-                thumbnail: true
+                thumbnail: true,
+                rotate: false,
+                zoom: false,
+                download: false,
+                fullScreen: false,
+                share: false,
             });
             return false;
         });

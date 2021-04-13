@@ -6,7 +6,7 @@ $(document).ready(function() {
             { src: 'images/arany.jpg', thumb: 'images/arany.jpg' },
             { src: 'images/tolgylevel_turkiz.jpg', thumb: 'images/tolgylevel_turkiz.jpg' },
         ],
-        '.karacsonyfadisz': [{ src: 'images/hopihe.jpg', thumb: 'images/hopihe.jpg' },
+        /*'.karacsonyfadisz': [{ src: 'images/hopihe.jpg', thumb: 'images/hopihe.jpg' },
             { src: 'images/harang.jpg', thumb: 'images/harang.jpg' },
             { src: 'images/angyal.jpg', thumb: 'images/angyal.jpg' },
             { src: 'images/koszoru.jpg', thumb: 'images/koszoru.jpg' },
@@ -24,11 +24,11 @@ $(document).ready(function() {
         '.kulcstarto': [{ src: 'images/kulcs1a.jpg', thumb: 'images/kulcs1a.jpg' },
             { src: 'images/kulcs2a.jpg', thumb: 'images/kulcs2a.jpg' },
             { src: 'images/kulcs3a.jpg', thumb: 'images/kulcs3a.jpg' },
-        ],
+        ],*/
         '.aldas': [{ src: 'images/jaszsagi.jpg', thumb: 'images/jaszsagi.jpg' },
             { src: 'images/sarkozi.jpg', thumb: 'images/sarkozi.jpg' },
         ],
-        '.torolkozo': [{ src: 'images/torolkozo_legjobb.jpg', thumb: 'images/torolkozo_legjobb.jpg' },
+        /*'.torolkozo': [{ src: 'images/torolkozo_legjobb.jpg', thumb: 'images/torolkozo_legjobb.jpg' },
             {
                 src: 'images/torolkozo_skorpio.jpg',
                 thumb: 'images/torolkozo_skorpio.jpg'
@@ -38,7 +38,7 @@ $(document).ready(function() {
                 thumb: 'images/torolkozo_tiboreva.jpg'
             }
 
-        ],
+        ],*/
     };
 
     Gallery(selectorToEgyeb);

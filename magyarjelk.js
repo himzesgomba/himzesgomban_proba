@@ -1,6 +1,6 @@
 $(document).ready(function() {
     let selectorToMagyar = {
-        '.magyar-image': [{ src: 'images/magyaro.jpg', thumb: 'images/magyaro.jpg' },
+        '.magyar-gallery': [{ src: 'images/magyaro.jpg', thumb: 'images/magyaro.jpg' },
             { src: 'images/magyar_zaszlo.jpg', thumb: 'images/magyar_zaszlo.jpg' },
             { src: 'images/nmo_kereszt_a.jpg', thumb: 'images/nmo_kereszt_a.jpg' },
             { src: 'images/nmo_kereszt_f.jpg', thumb: 'images/nmo_kereszt_f.jpg' },
