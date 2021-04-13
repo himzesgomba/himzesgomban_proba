@@ -92,7 +92,7 @@ body {
 }
 
 #header .nav-list ul.active {
-    left: 200px;
+    left: 100px;
 }
 
 #header .nav-list ul a {
@@ -1037,6 +1037,9 @@ form h6 {
         background-image: url(./images/embroidery-3719464_1280_barna.jpg);
         background-position: top center;
         padding-top: 50px;
+    }
+    #header .nav-list ul.active {
+        left: 200px;
     }
     #hero h1 {
         font-size: 1.5rem;
