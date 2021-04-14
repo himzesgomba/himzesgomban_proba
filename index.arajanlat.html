@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="style.css">
     <link type="text/css" rel="stylesheet" href="dist/css/lightgallery.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <link rel="icon" href="./images/anim-x110.png">
+    <link rel="icon" href="./images/gomba_egyszeru.png">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title>Himzes Gombán</title>
+    <title>Hímzes Gombán</title>
     <meta name="description" content="Egyedi hímzések, megrendelésre">
     <meta name="keywords" content="varrás, hímzés, óvodai jelek, tarisznyák, címerek">
 </head>
@@ -21,7 +21,7 @@
             <div class="nav-bar">
                 <div class="brand">
                     <a href="#hero">
-                        <img src="./images/anim-x110.png">
+                        <img src="./images/gomba_egyszeru.png">
                         <h1>Hímzés Gombán</h1>
                     </a>
                 </div>
@@ -73,17 +73,19 @@
                         <span>Telefonszám</span>
                     </div>
                     <div class="inputBox">
-                        <input type="radio" class="valaszt" id="sajat" name="valasztas" required="required"><label for="sajat">Saját mintát szeretnék hímeztetni</label>
-                        <input type="radio" class="valaszt" id="termek" name="valasztas" required="required"><label for="termek">A termékek közül szeretnék választani</label>
+                        <input type="radio" class="valaszt" id="sajat" name="valasztas"><label for="sajat">Saját mintát szeretnék hímeztetni</label>
+                        <input type="radio" class="valaszt" id="termek" name="valasztas"><label for="termek">A termékek közül szeretnék választani</label>
+                        <input type="radio" class="valaszt" id="ovoda" name="valasztas"><label for="ovoda">Az óvodai jelek közül szeretnék választani</label>
                     </div>
                     <div class="inputBox">
                         <select class="option" name="szolgaltatas">
-                            <option disabled="disabled" selected="celected"><span>Válasszon a hímzések közül... </span></option>
+                            <option disabled="disabled" selected="celected"><span>Válasszon a termékek közül... </span></option>
                             <option>Óvodai jel</option>
                             <option>Házi áldás jászsági szűcshímzéses koszorúban (19x24,5cm)</option>
                             <option>Házi áldás sárközi jegykendőmintával (19x24,5cm)</option>
                             <option>Magyar címer fémarannyal hímezve, 5,5 cm</option>
                             <option>Magyar címer fémarannyal hímezve, 7,5 cm</option>
+                            <option>Magyar címer fémarannyal hímezve, 10 cm</option>
                             <option>Magyar címer fémarannyal hímezve, 14 cm</option>
                             <option>Magyar címer fémarannyal hímezve, 25 cm</option>
                             <option>Magyar címer aranysárga cérnával hímezve, 5,5 cm</option>
@@ -175,7 +177,7 @@
                         <span>Darabszám</span>
                     </div>
                     <div class="inputBox">
-                        <label for="myFile">Hímeztetni kívánt minta feltöltése... (JPG, JPEG, PNG, SVG, GIF, TIF, BMP)</label>
+                        <label for="myFile">Hímeztetni kívánt saját kép feltöltése... (JPG, JPEG, PNG, SVG, GIF, TIF, BMP)</label>
                         <input type="file" id="myFile" name="myFile" accept=".jpg, .jpeg, .png, .gif, .tif, .bmp, .svg" multiple>
                     </div>
                     <div class="preview">
@@ -193,7 +195,7 @@
             </div>
             <div class="Ajanlatinfo">
                 <h1>Rendeléssel, szállítással kapcsolatos tudnivalók:</h1>
-                <h2>Ha kitölti a szükséges információkat készítünk Önnek egy ingyenes árajánlatot, amely tartalmazza a fizetendő programköltséget és a hímzés árát, valamint a várható postaköltséget és szállítási határidőt.</h2>
+                <h2>Ha kitölti a szükséges információkat, készítünk Önnek egy ingyenes árajánlatot, amely tartalmazza a fizetendő programköltséget és a hímzés árát, valamint a várható postaköltséget és szállítási határidőt.</h2>
                 <p>Ha a megrendelt hímzés darabszáma meghaladja a 200-at, a programkészítés díjtalan! Saját készítésű termékeink megvásárlása után, amennyiben nincs megelégedve a termékkel, az áru átvételétől számított nyolc munkanapon belül Ön elállhat
                     vásárlási szándékától. Ha a terméket sértetlen állapotban, saját költségén visszajuttatja címünkre, a vételárat az Ön által megjelölt módon visszatérítjük.</p>
             </div>
@@ -202,11 +204,11 @@
     <section id="footer">
         <div class="footer container">
             <div class="logojel">
-                <img src="./images/anim-x110.png" />
+                <img src="./images/gomba_egyszeru.png" />
             </div>
             <div class="social-icon">
                 <div class="social-item">
-                    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                    <a href="https://www.facebook.com/himzesgomban"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
                         width="20" height="20"
                         viewBox="0 0 226 226"
                         style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,226v-226h226v226z" fill="none"></path><g fill="#ffffff"><path d="M113,0c-62.41077,0 -113,50.58923 -113,113c0,56.65646 41.73177,103.42977 96.11085,111.60054v-81.65554h-27.96315v-29.70162h27.96315v-19.76631c0,-32.72654 15.94169,-47.08623 43.13992,-47.08623c13.02108,0 19.91408,0.96485 23.17369,1.40815v25.92915h-18.54938c-11.54338,0 -15.57662,10.94362 -15.57662,23.28669v16.23723h33.83915l-4.58954,29.70162h-29.24962v81.89892c55.15269,-7.49277 97.70154,-54.64854 97.70154,-111.85262c0,-62.41077 -50.58923,-113 -113,-113z"></path></g></g></svg></a>

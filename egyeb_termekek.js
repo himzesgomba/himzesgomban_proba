@@ -28,12 +28,12 @@ $(document).ready(function() {
         '.aldas': [{
                 src: 'images/jaszsagi.jpg',
                 thumb: 'images/jaszsagi.jpg',
-                subHtml: '<h4>2000 Ft</h4><p>Jászsági szűcshímzéses koszorúban, a hímzett keret finom aranydíszítéssel. Mérete: 19 x 24,5 cm</p>'
+                subHtml: '<h4>3500 Ft</h4><p>Jászsági szűcshímzéses koszorúban, a hímzett keret finom aranydíszítéssel. Mérete: 19 x 24,5 cm</p>'
             },
             {
                 src: 'images/sarkozi.jpg',
                 thumb: 'images/sarkozi.jpg',
-                subHtml: '<h4>2500 Ft</h4><p>Sárközi jegykendőmintával díszítve. Mérete: 19 x 24,5 cm</p>'
+                subHtml: '<h4>4000 Ft</h4><p>Sárközi jegykendőmintával díszítve. Mérete: 19 x 24,5 cm</p>'
             },
         ],
         /*'.torolkozo': [{ src: 'images/torolkozo_legjobb.jpg', thumb: 'images/torolkozo_legjobb.jpg' },
