@@ -90,7 +90,8 @@
     }
     
     #header .nav-list ul.active {
-        left: 100px;
+        left: 25%;
+        top: 45px;
     }
     
     #header .nav-list ul a {
