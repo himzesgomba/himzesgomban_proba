@@ -842,11 +842,11 @@
         box-shadow: 1px 1px 1px black;
     }
     
-    .contactForm #ovodaiselect {
+    .contactForm .opovoda {
         display: none;
     }
     
-    .contactForm #egyebselect {
+    .contactForm .option {
         display: none;
     }
     /*#status {
