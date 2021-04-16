@@ -739,7 +739,7 @@
         margin-top: 10px;
     }
     
-    .contactForm .inputBox .kerdo,
+    .contactForm .inputBox input,
     .contactForm .inputBox select,
     .contactForm .inputBox textarea {
         width: 100%;
@@ -766,7 +766,7 @@
         margin-left: 5px;
     }
     
-    .contactForm .inputBox .contactForm .inputBox input:focus~span,
+    .contactForm .inputBox input:focus~span,
     .contactForm .inputBox input:valid~span,
     .contactForm .inputBox textarea:focus~span,
     .contactForm .inputBox textarea:valid~span {
@@ -775,7 +775,9 @@
         transform: translateY(-20px);
     }
     
-    .contactForm .inputBox .valaszt {
+    .contactForm .inputBox .ovoda,
+    .contactForm .inputBox .termek,
+    .contactForm .inputBox .sajat {
         margin: 10px;
     }
     
