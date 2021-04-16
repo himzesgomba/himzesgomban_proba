@@ -778,7 +778,7 @@
     .contactForm .inputBox .ovoda,
     .contactForm .inputBox .termek,
     .contactForm .inputBox .sajat {
-        margin: 10px;
+        margin: 3px;
     }
     
     .contactForm .inputBox input[type="file"] {
@@ -840,6 +840,14 @@
         font-size: 10px;
         text-align: center;
         box-shadow: 1px 1px 1px black;
+    }
+    
+    .contactForm #ovodaiselect {
+        display: none;
+    }
+    
+    .contactForm #egyebselect {
+        display: none;
     }
     /*#status {
         width: 100%;
