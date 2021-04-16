@@ -830,7 +830,18 @@
         box-shadow: 1px 1px 1px black;
     }
     
-    #status {
+    .contactForm .kosz p {
+        width: 100%;
+        background: #3c7c51;
+        color: white;
+        text-transform: uppercase;
+        border: none;
+        padding: 10px;
+        font-size: 10px;
+        text-align: center;
+        box-shadow: 1px 1px 1px black;
+    }
+    /*#status {
         width: 100%;
         text-align: center;
         padding: 10px;
@@ -848,7 +859,7 @@
         background-color: rgb(250, 129, 92);
         color: white;
         animation: status 4s ease forwards;
-    }
+    }*/
     
     #ajanlat .Ajanlatinfo {
         color: white;
